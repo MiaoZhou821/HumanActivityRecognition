@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.model_selection import train_test_split
 
-data_HAR = pd.read_csv('/Users/shuishui/Desktop/2019FALL/CAPSTONE/MiniProj/datasetHAR.csv')
+data_HAR = pd.read_csv('/datasetHAR.csv')
 
 X = data_HAR.drop('Activity', axis=1)
 X = X.drop('subject', axis=1)
