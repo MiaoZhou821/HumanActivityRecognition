@@ -7,7 +7,7 @@ import seaborn as sns;sns.set()
 from sklearn.metrics import classification_report,confusion_matrix
 from sklearn.svm import SVC
 #read data
-data_HAR = pd.read_csv('/Users/shuishui/Desktop/2019FALL/CAPSTONE/MiniProj/datasetHAR.csv')
+data_HAR = pd.read_csv('/datasetHAR.csv')
 print(data_HAR.shape)
 randomList = random.sample(range(1, 31), 6)
 
